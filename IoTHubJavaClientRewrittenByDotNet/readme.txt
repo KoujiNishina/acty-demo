@@ -1,0 +1,1 @@
+﻿com.microsoft.azure.iothub-java-client1.0.7のソースコードを、receiver-demoから参照されているクラスのみJavaからC#に移植したもの。

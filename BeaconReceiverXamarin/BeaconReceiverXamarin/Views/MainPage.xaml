@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeaconReceiverXamarin.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="{Binding Message}" TextColor="{Binding MessageFontColor}" FontSize="Large"/>
+        <Label Text="受信機のユニークな識別子" BackgroundColor="DarkGray" FontSize="Large"/>
+        <Label Text="{Binding UniqueID}" FontSize="Large"/>
+        <Label Text="受信機の検索条件の識別子" BackgroundColor="DarkGray" FontSize="Large"/>
+        <Label Text="{Binding Nickname}" FontSize="Large"/>
+        <Button Command="{Binding StartServiceCommand}" Text="サービス手動開始" FontSize="Medium" TextColor="Gray" Margin="10,0,0,0"/>
+        <Button Command="{Binding StopServiceCommand}" Text="サービス手動停止" FontSize="Medium" TextColor="Gray" Margin="10,0,0,0"/>
+        <Button Command="{Binding SettingsCommand}" Text="設定" FontSize="Medium" TextColor="Gray" Margin="10,0,0,0"/>
+    </StackLayout>
+
+</ContentPage>

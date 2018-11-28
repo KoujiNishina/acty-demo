@@ -1,0 +1,25 @@
+{
+  "active_host": "s01-ih11.azure-devices.net",
+  "standby_host": "s01-ih21.azure-devices.net",
+  //"iothub_auth_info": {
+  //  "name": "20180522024047000597",
+  //  "password": "ol0io7YXZ5mKsLKqH+Zsfw=="
+  //},
+  "analysis_interval": 60,
+  "send_interval": 60,
+  "failover": 3,
+  "failback": 50,
+  "allowed_min_rssi": -40,
+  //"web_settings_url": "https://server61.firestorage.jp/download.mcgi?act=download_file&key=5fead150e63a539d11663f9482765b878520fc42c1fbf&d=d3e4a2&e=29bb82&dx=29bb82",
+  "web_settings_url": "https://s01-api1.lab.sphere.ad.jp/receivers",
+  "customer_front_url": "https://s01-api1.lab.sphere.ad.jp",
+  "customer_front_auth_info": {
+    "id": "surechigaitest_180522",
+    "password": "surechigaitest_180522"
+  }
+  ,"uuid_white_list": [
+    "d4c3ccc0-29fb-11e5-884f-0002a5d5c51b"
+  ]
+  //,
+  //"receiver_nickname": "receiver_nickname180522"
+}

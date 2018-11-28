@@ -1,0 +1,23 @@
+﻿{
+	"active_host": "s01-ih11.azure-devices.net",
+	"standby_host": "s01-ih21.azure-devices.net",
+	"iothub_auth_info": {
+		"name": "20180423013458000910",
+		"password": "7JT2q6vW6zdYs/Yvo79KsQ=="
+	},
+	"analysis_interval": 60,
+	"send_interval": 60,
+	"failover": 3,
+	"failback": 300,
+	"allowed_min_rssi": -40,
+	"web_settings_url": "http://surechigai.redmine.lab.sphere.ad.jp/receivers",
+	"customer_front_url": "http://surechigai.redmine.lab.sphere.ad.jp",
+	"customer_front_auth_info": {
+		"id": "myapp",
+		"password": "mypassword"
+	},
+	"uuid_white_list": [
+
+	],
+	"receiver_nickname": ""
+}
